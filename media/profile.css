@@ -1,0 +1,133 @@
+/*
+Copyright 2011 Shothub - All Rights Reserved
+
+This code, and all derivative work, is the exclusive property of Shothub. and may not be used without Shuthub's authorization
+
+Author:Kenny Khek
+*/
+/* profile content */
+
+.left_nagiv {
+  width: 200px;
+  min-height: 568px;
+  font-size:14px;
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.left_nagiv_list {
+  border: 1px solid #FCF9F9;
+  padding-top: 8px;
+  padding-bottom:8px;
+  padding-left: 10px;
+  font-size:16px;
+  color: #919191;
+  text-shadow: 0px -1px 0px #E5E5EE;
+}
+
+.left_nagiv_list:hover {
+  border: 1px solid #E5E5EE;
+  background-color:white;
+  color:black;
+  text-shadow: 0px 0px 0px #e5e5ee;
+}
+
+.left_nagiv .active {
+  border:none;
+  border-top:1px solid #e5e5ee;
+  border-bottom:1px solid #e5e5ee;
+  color:black;
+  font-weight:bold;
+  background-color:white;
+  -moz-box-shadow:inset 0px 2px 2px #e5e5ee;
+  box-shadow:inset 0px 2px 2px #E5e5ee;
+}
+
+.requirements {
+  background-color:#FFF5F5;
+  padding-top:6px;
+  padding-bottom:6px;
+  padding-left:15px;
+  font-weight:bold;
+  border-top: 1px solid #e5e5ee;
+  border-bottom: 1px solid #e5e5ee;
+  text-shadow: 0px 1px 0px #e5e5ee;
+}
+
+.requirements .resize {
+  height:24px;
+}
+
+.requirements .subtitle {
+  padding-left:8px;
+  padding-top: 2px;
+}
+
+.container {
+  width: 539px;
+  margin: auto;
+  min-height:40px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  border-bottom: 1px dotted #e5e5ee;
+}
+
+.container-single {
+  width: 539px;
+  margin: auto;
+  min-height:40px;
+  padding-top:5px;
+  padding-bottom: 5px;
+}
+
+.required-list li:last-child .container {
+  border-bottom:none;
+}
+
+.label {
+  width: 100px;
+  text-align:right;
+  padding-top: 12px;
+}
+
+.input-box {
+  margin-left: 15px;
+  margin-top: 8px;
+  padding-top:4px;
+  padding-bottom:4px;
+  width: 400px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border:1px solid #cccccc;
+  -moz-box-shadow:inset 0px 1px 0px #e5e5ee;
+  -webkit-box-shadow:inset 0px 1px 0px #e5e5ee;
+  box-shadow:inset 0px 1px 0px #e5e5ee;
+}
+
+.profile-dropdown {
+  margin-left: 15px;
+  margin-top:10px;
+}
+
+.birth-dropdown {
+  margin-left: 5px;
+  margin-top:10px;
+}
+
+li:first-child .birth-dropdown {
+  margin-left:15px;
+}
+
+.sub-info {
+  margin-top: 5px;
+  margin-left:115px;
+  margin-bottom:5px;
+  font-size:12px;
+  line-height: 15px;
+  color: #919191;
+  text-shadow: 0px -1px 1px #e5e5ee;
+}
+
+.label .submit-button {
+  width:100%;
+}

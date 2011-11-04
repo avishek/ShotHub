@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html>
+<!-- 
+Copyright 2011 Shothub - All Rights Reserved
+
+This code, and all derivative work, is the exclusive property of Shothub. and may not be used without Shuthub's authorization
+
+Author:Kenny Khek
+-->    
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+  <style type="text/css" media="screen, projection">
+    @import url(media/base.css);
+    @import url(media/logged_in.css);
+    @import url(media/profile.css);
+  </style>
+</head>
+    
+<body>
+  <div class="header">
+    <div class="header_top">
+      <div class="logo"><img src="images/shothub_logo.png"  class="resizeh"/>
+      </div>
+      <div class="master">
+        <div class="settings">
+          <div class="user">
+            Eric Chan<span class="arrow"></span>
+          </div>
+          <div class="dropdown_arrow"></div>
+          <div class="dropdown">
+            <ul>
+              <li><a href="profile.html"><div class="list_div">Profile</div></a></li>
+              <li><a href=""><div class="list_div">Log Out</div></a></li>
+              <li><a href=""><div class="list_div">Need Help?</div></a></li>
+            </ul>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="header_bottom"></div>
+    <div class="clear"></div>
+  </div>
+    <div class="body">
+    <div class="content">
+      <div class="dashboard">
+        <div class="nagivation">
+          <ul>
+            <li class="fleft"><a href="">Dashboard</a></li>
+            <li class="fleft"><a href="travel.html">Travel</a></li>
+            <li class="fleft active"><a href="profile.html">Profile</a></li>
+          </ul>
+          <div class="clear"></div>
+        </div>
+        <div class="main">
+          <div class="left_nagiv fleft">
+            <ul>
+              <li><a href=""><div class="left_nagiv_list active">Edit Profile</div></a></li>
+            </ul>
+          </div>
+          <div class="pane fleft">
+            <div class="requirements">
+              <img src="images/red-tick.png" alt="red-tick" class="fleft resize"/>
+              <div class="subtitle fleft">Required</div>
+              <div class="clear"></div>
+            </div>
+            <ul class="required-list">
+              <li><div class="container">
+                    <div class="label fleft">Name</div><input class="input-box" type="text"/>
+                  </div></li>
+              <li><div class="container">
+                    <div class="label fleft">Last Name</div><input class="input-box" type="text"/>
+                  </div></li>
+              <li><div class="container">
+                    <div class="label fleft">Email</div><input class="input-box" type="text"/>
+                  </div></li>
+              </ul>
+            <div class="requirements">
+              <img src="images/red-i.png" alt="red-tick" class="fleft resize"/>
+              <div class="subtitle fleft">Optional</div>
+              <div class="clear"></div>
+            </div>
+            <ul class="optional-list">
+              <li><div class="container">
+                    <div class="label fleft">Gender</div>
+                    <select class="profile-dropdown">
+                      <option value="">  </option>
+                      <option value="male">Male</option>
+                      <option value="female">Female</option>
+                      <option value="other">Other</option>
+                    </select>
+                    <div class="sub-info">
+                      We use this give you a better recommendation for gender dependent vaccination.
+                    </div>
+                  </div></li>
+              <li><div class="container">
+                    <div class="label fleft">Birth Date</div>
+                    <ul>
+                      <li class="fleft"><select class="birth-dropdown" id="dayfield"></select></li>
+                      <li class="fleft"><select class="birth-dropdown" id="monthfield"></select></li>
+                      <li class="fleft"><select class="birth-dropdown" id="yearfield"></select></li>
+                    </ul>
+                    <div class="clear"></div>
+                    <div class="sub-info">
+                      We use this to give you a better recommendation for age dependent vaccination.
+                    </div>
+                  </div></li>
+              <li><div class="container">
+                    <div class="label fleft">Address</div><input class="input-box" type="text"/>
+                    <div class="sub-info">
+                      Shothub can help you in finding available vaccination near your house.
+                    </div>
+
+                  </div></li>
+            </ul>
+            <div class="container-single">
+              <div class="label fleft">
+                <input type="submit" class="submit-button">
+              </div>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <div class="clear"></div>      
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div class="footer">
+    <ul>
+      <li class="about link fleft"><a href="about.html">ABOUT SHOTHUB</a></li>
+      <li class="blog link fleft"><a href="blog.html">BLOG</a></li>
+      <li class="contact_us link fleft"><a href="">CONTACT US</a></li>
+      <li class="privacy_policy link fleft"><a href="">PRIVACY POLICY</a></li>    
+      <li: class="copyright link fright">@ 2011 SHOTHUB</li>
+    </ul>
+    <div class="clear"></div>
+  </div>
+</body>
+<script type="text/javascript" src="media/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="media/header.js"></script>
+<script type="text/javascript" src="media/profile.js"></script>
+</html> 

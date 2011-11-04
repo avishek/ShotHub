@@ -1,0 +1,116 @@
+/*
+Copyright 2011 Shothub - All Rights Reserved
+
+This code, and all derivative work, is the exclusive property of Shothub. and may not be used without Shuthub's authorization
+
+Author:Kenny Khek
+*/
+.logo {
+  height: 40px;
+  padding-left: 28px;
+  float:left;
+}
+
+body {
+  font-family: Ubuntu, helvetica, Arial, sans-serif;
+  font-size: 14 px;
+}
+
+.padding {
+  padding: 5px;
+}
+
+.top_pad {
+  padding-top: 5px;
+}
+
+.content {
+  width:602px;
+  margin:auto;  
+  padding-top:100px;
+  -webkit-box-shadow: none;
+  box-shadow: none; 
+}
+
+.tile {
+  width:600px;
+  height:230px;
+  margin:auto;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color:#fbfbfb;
+  border: 1px solid #e5e5ee;
+  -moz-box-shadow: 0px 2px 2px #e5e5ee;
+  -webkit-box-shadow: 0px 2px 2px #e5e5ee;
+  box-shadow: 0px 2px 2px #e5e5ee;
+}
+
+.tile .banner {
+  width:580px;
+  height: 140px;
+  margin:auto;
+  margin-top:10px;
+  text-align:center;
+  background-color:#E62E16;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: inset 0px 2px 0px #CA1700;
+  -webkit-box-shadow: inset 0px 2px 0px #CA1700;
+  box-shadow: inset 0px 2px 0px #CA1700;
+}
+
+.banner .logo {
+  color:white;
+  font-size: 112px;
+  text-shadow: 0px -2px 2px #e5e5ee;
+  font-weight:bold;
+}
+
+.quote {
+  font-size: 40px;
+  text-align:center;
+  line-height: 150%;
+  letter-spacing: -1px;
+}
+
+.email_box {
+  width:600px;
+  margin:auto;
+}
+
+.email_input {
+  width:480px;
+  margin:auto;
+}
+
+.email_textbox_input {
+  width: 250px;
+  height: 28px;
+  padding-left:20px;
+  padding-right:20px;
+  margin-right:-2px;
+  font-size: 14px;
+  border:1px solid #e5e5ee;
+  background-color: #FFF3F3;
+  -moz-box-shadow: 0px 1px 1px #e5e5ee;
+  -webkit-box-shadow: 0px 1px 1px #e5e5ee;
+  box-shadow: 0px 1px 1px #e5e5ee;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.submit-button {
+  -moz-border-radius:0px;
+  border-radius:0px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.peek {
+  padding: 15px;
+  text-align:center;    
+}

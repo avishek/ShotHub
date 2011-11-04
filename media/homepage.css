@@ -1,0 +1,77 @@
+/*
+Copyright 2011 Shothub - All Rights Reserved
+
+This code, and all derivative work, is the exclusive property of Shothub. and may not be used without Shuthub's authorization
+
+Author:Kenny Khek
+*/
+
+.content_left {
+  padding-top:100px;
+  width: 460px;
+  padding-left:12px;
+}
+
+.content_left h3 {
+  text-indent: 10px;
+}
+
+.one_liner {
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  font-size: 16px;
+  line-height:16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+.content_right {
+  background-color:#FFF3F3;
+  width: 260px;
+  margin-top: 85px;
+  padding-top:20px;
+  margin-bottom: 80px;
+  padding-bottom: 70px;
+  padding-left: 10px;
+  margin-right: 15px;
+  border: 1px solid #cccccc;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+.signup_label {
+  padding-bottom: 10px;
+}
+
+.content_right .login_text {
+  width: 230px;
+  height:24px;
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-right: 4px;
+  margin-bottom: 5px;
+  border:1px solid #e5e5ee;
+  -moz-border-radius: 5px;
+  border-radius:5px;
+  background:white;
+  -moz-box-shadow:inset 0px -1px 1px #e5e5ee;
+  -webkit-box-shadow:inset 0px -1px 1px #e5e5ee;
+  box-shadow:inset 0px -1px 1px #e5e5ee;
+  padding-left: 10px;
+  padding-right:10px;
+  font-size: 10px;
+}
+
+.content_right .submit-button {
+  width:98px;
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-bottom: 5px;
+  margin-right: 9px;
+}

@@ -1,0 +1,33 @@
+/*
+Copyright 2011 Shothub - All Rights Reserved
+
+This code, and all derivative work, is the exclusive property of Shothub. and may not be used without Shuthub's authorization
+
+Author:Kenny Khek
+*/
+/* profile content */
+.countries-support {
+  width:276px;
+  height:35px;
+  margin:auto;
+  margin-top: 25px;
+}
+
+.label {
+  margin-top: 4px;
+  margin-right: 2px;
+}
+
+.world-map {
+  width:530px;
+  height:281px;
+  margin:auto;
+  padding:1px;
+  box-shadow:inset 0px 1px 1px rgba(0,0,0,0.6);
+  -o-box-shadow:inset 0px 1px 1px rgba(0,0,0,0.6);
+  -moz-box-shadow:inset 0px 1px 1px rgba(0,0,0,0.6);
+}
+
+.world-map .resize {
+  width:100%;
+}

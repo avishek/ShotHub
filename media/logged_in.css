@@ -1,0 +1,166 @@
+/*
+Copyright 2011 Shothub - All Rights Reserved
+
+This code, and all derivative work, is the exclusive property of Shothub. and may not be used without Shuthub's authorization
+
+Author:Kenny Khek
+*/
+/* user logged in */
+.user {
+  font-size:14px;
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border:1px solid #FCF9F9;
+  cursor:pointer;
+}
+
+.user:hover {
+  border:1px solid #e5e5ee;
+  background-color:white;
+}
+
+.settings .active {
+  background-color: #FFF3F3;
+  border:1px solid #e5e5ee;
+  -moz-box-shadow:inset 0px 1px 1px #e5e5ee;
+  -webkit-box-shadow:inset 0px 1px 1px #e5e5ee;
+  box-shadow:inset 0px 1px 1px #e5e5ee;
+  text-shadow: 0px 1px 0px white;
+}
+
+.dropdown_arrow {
+  height:8px;
+}
+
+.dropdown {
+  position:absolute;
+  z-index: 5;
+  text-align: right;
+  background: -webkit-gradient(linear,center top,center bottom,from(rgba(50, 50, 50, 0.9)),to(rgba(0, 0, 0, 0.9)));
+  background: -moz-linear-gradient(top,rgba(50, 50, 50, 0.9),rgba(0, 0, 0, 0.9));
+  border: 1px solid black;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-size:11px;
+}
+
+.dropdown a {
+  color:white;
+}
+
+.list_div {
+  display:block;
+  padding-top:4px;
+  padding-bottom:4px;
+  padding-left:20px;
+  padding-right:15px;
+}
+
+.list_div:hover {
+  background-color: #FFF3F3;
+  color:black;
+}
+
+.dropdown li:first-child .list_div {
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding-top:6px;
+}
+
+.dropdown li:last-child .list_div {
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-bottom:6px;
+}
+/* end of user logged in */
+
+/* dashboard */
+.content {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background-color:#FCFCFC;
+}
+
+.dashboard {
+  width:768px;
+  min-height:568px;
+  background-color:#FCF9F9;
+  margin:auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #E5E5EE;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.nagivation {
+  font-family: Helvetica, Arial;
+  background-color: #E62E16;
+  width: 748px;
+  margin:auto;
+  margin-top:10px;
+  margin-bottom: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 24px;
+  font-weight:bold;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.nagivation li {
+  margin-left:5px;
+  margin-right:5px;
+  padding-left: 5px;
+  padding-top:2px;
+  padding-right:5px;
+  padding-bottom:2px;
+  border:1px solid #E62E16;
+}
+
+.nagivation a { 
+  color:white;
+  text-shadow: 0px -1px 1px #E5E5EE;
+}
+
+.nagivation li:hover {
+  border: 1px solid #CA1700;
+  background-color:#CA1700;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow:0px 1px 1px #E5E5EE;
+  -webkit-box-shadow:0px 1px 1px #E5E5EE;
+  box-shadow:inset 0px -1px 1px #E5E5EE;
+}
+
+.nagivation .active:hover {
+  border: 1px solid #E62E16;
+  background:#E62E16;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+}
+
+.nagivation .active a {
+  color:black;
+  text-shadow: 0px -1px 1px #CA1700;
+}
+
+.main {
+  width: 100%;
+  margin:auto;
+  min-height: 568px;
+}
